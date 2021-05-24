@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://script.js",
+            "request": "launch",
+            "url": "http://script.js"
+        }
+    ]
+}
