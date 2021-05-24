@@ -77,6 +77,6 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 let searchButton = document.querySelector("#search-button");
 searchButton.addEventListener("click", handleSubmit);
 
-searchCity("Portland, OR");
+searchCity("New York");
 
 // time zones
