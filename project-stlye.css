@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(0.25turn, #d9e2e3, #f7f7f7, #767676);
+}
+
+.MainTemp {
+  text-align: center;
+  font-weight: bold;
+}
+.MajorCities {
+  font-style: italic;
+  font-family: "antonio";
+  text-align: center;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+.PortlandData {
+  text-align: left;
+  padding-left: 150px;
+  position: relative;
+  bottom: -100px;
+}
+
+.Portland {
+  font-weight: bold;
+  font-size: 48px;
+  color: #0e663c;
+}
+.Temp {
+  font-size: 100px;
+}
+.TodayTemp {
+  color: #0166ff;
+}
+.sun {
+  color: #f7ae00;
+  font-size: 100px;
+  position: relative;
+  top: -25px;
+}
+.Precip {
+  text-align: left;
+  padding-left: 100px;
+  position: relative;
+  bottom: -170px;
+}
+.container {
+  text-align: center;
+  display: block;
+}
+.cloudy,
+.bolt,
+.windy,
+.sun2,
+.sun3 {
+  font-size: 40px;
+}
+.cloudy {
+  color: #a7a8ac;
+}
+.bolt {
+  color: #f4f602;
+}
+.windy {
+  color: #0c07ef;
+}
+.sun2,
+.sun3 {
+  color: #f7ae00;
+}
+form {
+  display: block;
+  padding: 10px auto;
+  text-align: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
