@@ -1,10 +1,30 @@
 {
     "configurations": [
         {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "pwa-extensionHost"
+        },
+        {
             "type": "pwa-chrome",
             "name": "http://script.js",
             "request": "launch",
             "url": "http://script.js"
         }
     ]
+}
+{
+        "version": "0.2.0",
+        "configurations": [],
+        "compounds": []
+}
+{
+    "liveServer.settings.port": 5501
 }
